@@ -18,7 +18,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+			},
 			colors: {
+				'ai-indigo': '#6366F1',
+				'ai-purple': '#8B5CF6',
+				'ai-cyan': '#1F2937',
+				'ai-teal': '#06B6D4',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
